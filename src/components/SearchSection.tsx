@@ -117,25 +117,25 @@ const SearchSection = () => {
         <div className="bg-white rounded-lg p-8 text-legal-red">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold mb-2">Comprehensive Legal Database Coverage</h3>
-            <p className="text-white/90">Access the most extensive collection of legal documents and precedents</p>
+            <p className="text-black/90">Access the most extensive collection of legal documents and precedents</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">50M+</div>
-              <div className="text-white/90">Legal Documents</div>
+              <div className="text-black/90">Legal Documents</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">500K+</div>
-              <div className="text-white/90">Court Cases</div>
+              <div className="text-3xl font-bold mb-2">10M+</div>
+              <div className="text-black/90">Court Cases</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">10K+</div>
-              <div className="text-white/90">Statutes & Regulations</div>
+              <div className="text-3xl font-bold mb-2">250+</div>
+              <div className="text-black/90">Law Journals</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">50+</div>
-              <div className="text-white/90">Jurisdictions</div>
+              <div className="text-3xl font-bold mb-2">12</div>
+              <div className="text-black/90">Countries</div>
             </div>
           </div>
         </div>

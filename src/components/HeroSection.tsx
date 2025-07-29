@@ -26,16 +26,29 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-legal-red to-legal-red-light hover:shadow-lg hover:shadow-legal-red/25 transition-all duration-300"
-            >
-              Get Started Free
-              <ArrowRight className="ml-2 h-4 w-4 text-legal-red-dark" />
-            </Button>
-            <Button variant="outline" size="lg" className="hover:bg-legal-red-light transition-colors">
-              Request a Demo
-            </Button>
+            <a href="https://heyzine.com/flip-book/cb0f2151b5.html">
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-legal-red to-legal-red-light hover:shadow-lg hover:shadow-legal-red/25 transition-all duration-300"
+              >
+                Get Started Free
+                <ArrowRight className="ml-2 h-4 w-4 text-legal-red-dark" />
+              </Button>
+            </a>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="hover:bg-legal-red-light transition-colors"
+                >
+                <a
+                  href="https://forms.gle/EF1J2QhS9yF1EKLWA"
+                  aria-label="Send an email to request a demo"
+                  className="flex items-center justify-center"
+                >
+                  Request a Demo
+                </a>
+              </Button>
           </div>
           
           {/* Quick Search Demo */}

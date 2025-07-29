@@ -21,14 +21,28 @@ const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <a
+            href="https://www.youtube.com/watch?v=E47q2fbsoTM"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Watch Learn More video on YouTube"
+          >
             <Button 
               size="lg" 
               variant="secondary"
               className="bg-white text-legal-red hover:bg-white/90 shadow-lg"
             >
-              Start Free Trial
+              Learn More
               <ArrowRight className="ml-2 h-4 w-4 text-legal-red-dark" />
             </Button>
+          </a>
+
+          <a
+            href="https://forms.gle/EF1J2QhS9yF1EKLWA"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Google Form to schedule a demo"
+          >
             <Button 
               variant="outline" 
               size="lg"
@@ -36,6 +50,8 @@ const CTASection = () => {
             >
               Schedule Demo
             </Button>
+          </a>
+
           </div>
 
           {/* Trust Indicators */}

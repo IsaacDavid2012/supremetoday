@@ -20,12 +20,9 @@ const Header = () => {
           <a href="#drafting" className="text-sm font-medium hover:text-legal-red transition-colors">
             Drafting
           </a>
-          <Button variant="outline" size="sm">
-            Login
-          </Button>
-          <Button size="sm" className="bg-gradient-to-r from-legal-red to-legal-red-light">
-            Get Started
-          </Button>
+          <a href="https://www.youtube.com/watch?v=kzo20Ba6ts8&t=501s" className="text-sm font-medium hover:text-legal-red transition-colors">
+            Demo Video
+          </a>
         </nav>
       </div>
     </header>

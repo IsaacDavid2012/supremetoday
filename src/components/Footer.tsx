@@ -27,16 +27,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
-          <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#careers" className="hover:text-primary transition-colors">Careers</a></li>
-              <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#blog" className="hover:text-primary transition-colors">Blog</a></li>
-            </ul>
-          </div>
+          
 
           {/* Contact */}
           <div>
@@ -44,15 +35,15 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-legal-red" />
-                <span>support@supremetoday.ai</span>
+                <span>office@marsdenlawbook.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-legal-red" />
-                <span>+1 (555) 123-4567</span>
+                <span>+603-6205 4391</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-legal-red" />
-                <span>San Francisco, CA</span>
+                <span>Publika, Kuala Lumpur, 52100 KL</span>
               </div>
             </div>
           </div>
@@ -60,7 +51,7 @@ const Footer = () => {
 
         <div className="border-t mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Supreme Today AI. All rights reserved.
+            © 2025 Creative Clicks Studios. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground mt-4 sm:mt-0">
             <a href="#privacy" className="hover:text-primary transition-colors">Privacy Policy</a>
